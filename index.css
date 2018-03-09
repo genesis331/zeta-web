@@ -1,0 +1,336 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+html {
+    font-size: 12px;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #283c4f;
+}
+
+.logo {
+    padding-top: 10%;
+    text-align: center;
+}
+
+@keyframes introexplore {
+    from {padding-top: 10%}
+    to {padding-top: 5%}
+}
+
+.logo.explore {
+    animation-name: introexplore;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.intro-img img {
+    height: 10%;
+    width: 10%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.intro-slogan {
+    padding: 3rem 0;
+    color: white;
+    font-size: 3rem;
+    margin: 0 50rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@keyframes hideDiv {
+    0% {opacity: 1}
+    50% {opacity: 0}
+    100% {opacity: 0}
+}
+
+.intro-slogan.hide {
+    animation-name: hideDiv;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.button {
+    text-align: center;
+    display: block;
+}
+
+.button.hide {
+    animation-name: hideDiv;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.explore-button {
+    padding: 3rem 0;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.explore-button:active {
+    color: black;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: scale(0.8)}
+    to {opacity: 1; transform: scale(1)}
+}
+
+.menu {
+    font-size: 2.1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding: 5rem 10rem;
+    display: none;
+    text-align: center;
+}
+
+.menu.show {
+    display: block;
+}
+
+.about, .commands, .news, .concept, .contact, .prerequisites {
+    width: 14rem;
+    height: 5rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: #001627;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    opacity: 0;
+    vertical-align: middle;
+}
+
+.features {
+    display: inline-block;
+    width: 28rem;
+    height: 5rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    background-color: #001627;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    vertical-align: top;
+}
+
+.changelog {
+    display: inline-block;
+    width: 28rem;
+    height: 5rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    background-color: #001627;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    vertical-align: middle;
+}
+
+.menu-title {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.menu-content {
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.about {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+}
+
+.about:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.commands {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.4s;
+}
+
+.commands:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.news {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.news:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.concept {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+}
+
+.concept:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.contact {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.7s;
+}
+
+.contact:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+}
+
+.prerequisites {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.9s;
+}
+
+.prerequisites:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+}
+
+.changelog {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+
+.changelog:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.features {
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 0.8s;
+}
+
+.features:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.link {
+    padding-top: 4rem;
+}
+
+.link img {
+    height: 20%;
+    width: 20%;
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        padding-top: 20%;
+    }
+    @keyframes introexplore {
+        from {padding-top: 20%}
+        to {padding-top: 10%}
+    }
+    .intro-img img {
+        height: 30%;
+        width: 30%;
+    }
+    .intro-slogan {
+        padding: 4rem 0;
+        margin: 0 5rem;
+        font-size: 3rem;
+    }
+    .explore-button {
+        font-size: 2rem;
+    }
+    .about, .commands, .news, .concept, .contact, .prerequisites, .changelog, .features {
+        width: 24rem;
+        height: 4rem;
+    }
+    .menu {
+        padding: 5rem 0;
+    }
+    .link img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .logo {
+        padding-top: 15%;
+    }
+    @keyframes introexplore {
+        from {padding-top: 15%}
+        to {padding-top: 8%}
+    }
+    .intro-img img {
+        height: 30%;
+        width: 30%;
+    }
+    .intro-slogan {
+        padding: 4rem 0;
+        margin: 0 5rem;
+        font-size: 4rem;
+    }
+    .explore-button {
+        font-size: 3rem;
+    }
+    .about, .commands, .news, .concept, .contact, .prerequisites, .changelog, .features {
+        width: 35rem;
+        height: 5rem;
+    }
+    .menu {
+        padding: 5rem 5rem;
+    }
+    .link img {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .intro-img img {
+        height: 20%;
+        width: 20%;
+    }
+    .intro-slogan {
+        padding: 4rem 0;
+        margin: 0 20rem;
+        font-size: 4rem;
+    }
+    .explore-button {
+        font-size: 3rem;
+    }
+}
+

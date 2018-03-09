@@ -1,0 +1,266 @@
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+html {
+    font-size: 12px;
+    width: 100%;
+}
+
+@keyframes changeBackground {
+    from {background-color: #283c4f}
+    to {background-color: #53667b}
+}
+
+body {
+    margin: 0 auto;
+    background-color: #283c4f;
+    animation-name: changeBackground;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+@keyframes moveHeader {
+    from {padding-top: 14rem}
+    to {padding-top: 4rem}
+}
+
+.header {
+    text-align: center;
+    padding-top: 14rem;
+}
+
+.header.move {
+    animation-name: moveHeader;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+}
+
+.h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.5em;
+}
+
+.h1 img {
+    height: 8%;
+    width: 8%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.linebreak1, .linebreak2, .linebreak3 {
+    font-size: 0.2rem;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.content {
+    padding-top: 2rem;
+}
+
+.navigation-bar {
+    margin: 2rem 0;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .dot1, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7 {
+    margin: 0.5rem;
+    opacity: 0;
+    color: white;
+}
+
+.n1.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.dot1.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+}
+
+.n2.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.7s;
+}
+
+.dot2.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.8s;
+}
+
+.n3.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.9s;
+}
+
+.dot3.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+.n4.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.1s;
+}
+
+.dot4.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.2s;
+}
+
+.n5.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.3s;
+}
+
+.dot5.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.4s;
+}
+
+.n6.show {
+    animation-name: showDiv;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.dot6.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.6s;
+}
+
+.n7.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.7s;
+}
+
+.dot7.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.8s;
+}
+
+.n8.show {
+    animation-name: showLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.9s;
+}
+
+@keyframes showDiv {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes showLinks {
+    from {opacity: 0}
+    to {opacity: 0.4}
+}
+
+.mobile {
+    display: none;
+    opacity: 0;
+}
+
+.mobile.show {
+    animation-name: showDiv;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+}
+
+.explore {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.explore:active {
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        padding-top: 14rem;
+    }
+    .h1 img {
+        height: 30%;
+        width: 30%;
+    }
+    .h2 {
+        font-size: 2rem;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .header {
+        padding-top: 14rem;
+    }
+    .h1 img {
+        height: 25%;
+        width: 25%;
+    }
+    .h2 {
+        font-size: 3rem;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .explore {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {}
