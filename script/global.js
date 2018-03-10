@@ -16,12 +16,6 @@ $(window).on("load", function() {
     $(".dot7").addClass("show");
     $(".n8").addClass("show");
     $(".mobile").addClass("show");
-    $(".c1").addClass("show");
-    $(".c2").addClass("show");
-    $(".c3").addClass("show");
-    $(".linebreak1").addClass("show");
-    $(".linebreak2").addClass("show");
-    $(".linebreak3").addClass("show");
 });
 
 function closeTab() {
