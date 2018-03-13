@@ -12,10 +12,13 @@ http.onreadystatechange = function() {
 }
 http.send();
 
+var title = "";
+var description = "";
+
 function showCommands(data) {
     for (var i = 0; i <= data.commands.length; i++) {
-        var title = data.commands[i].command;
-        var description = data.commands[i].desc;
+        title = data.commands[i].command;
+        description = data.commands[i].desc;
         var createDiv = "<div class='content-container'>" + "<div class='content-title'>" + title + "</div>" + "<div class='content-p'>" + description +  "</div>" + "</div>";
         $(".content").append(createDiv);
     }
