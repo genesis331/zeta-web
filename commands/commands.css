@@ -135,9 +135,6 @@
     margin: 2rem 5rem;
     text-align: left;
     opacity: 0;
-}
-
-.content-container.show {
     animation-name: showDiv;
     animation-duration: 1s;
     animation-fill-mode: both;
