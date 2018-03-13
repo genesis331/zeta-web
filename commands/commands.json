@@ -1,0 +1,16 @@
+{
+    "commands": [
+        {
+            "/help": "Show the help menu."
+        },
+        {
+            "contact": "Report bugs or give suggestions to developer(s)."
+        },
+        {
+            "feedlist": "Show list of feeds."
+        },
+        {
+            "about": "Know more about Zeta."
+        }
+    ]
+}
