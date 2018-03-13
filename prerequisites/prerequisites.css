@@ -110,8 +110,55 @@
     animation-delay: 1.9s;
 }
 
+@keyframes floatUp {
+    from {margin-top: 2rem;opacity: 0}
+    to {margin-top: 0rem;opacity: 1}
+}
+
 .content {
-    padding-bottom: 20rem;
+    padding: 5rem 0;
+}
+
+.title {
+    font-size: 3rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    opacity: 0;
+}
+
+.title.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.c1 {
+    font-size: 2rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 5rem 0;
+    opacity: 0;
+}
+
+.c1.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.c1c {
+    vertical-align: bottom;
+}
+
+.c1i img {
+    height: 2%;
+    width: 2%;
 }
 
 @media screen and (max-width: 480px) {}
