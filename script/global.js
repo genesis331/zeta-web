@@ -16,6 +16,7 @@ $(window).on("load", function() {
     $(".dot7").addClass("show");
     $(".n8").addClass("show");
     $(".mobile").addClass("show");
+    $(".footer").addClass("show");
 });
 
 function closeTab() {

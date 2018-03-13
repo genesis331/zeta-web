@@ -118,6 +118,14 @@ a {
     text-align: center;
     padding: 2rem;
     margin-top: 5rem;
+    opacity: 0;
+}
+
+.footer.show {
+    animation-name: showDiv;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
 }
 
 .f1 {
