@@ -1,16 +1,20 @@
 {
     "commands": [
         {
-            "/help": "Show the help menu."
+            "command": "/help",
+            "desc": "Show the help menu."
         },
         {
-            "contact": "Report bugs or give suggestions to developer(s)."
+            "command": "/contact",
+            "desc": "Report bugs or give suggestions to developer(s)."
         },
         {
-            "feedlist": "Show list of feeds."
+            "command": "/feedlist",
+            "desc": "Show list of feeds."
         },
         {
-            "about": "Know more about Zeta."
+            "command": "/about",
+            "desc": "Know more about Zeta."
         }
     ]
 }
