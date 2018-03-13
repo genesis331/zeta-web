@@ -110,12 +110,118 @@
     animation-delay: 1.9s;
 }
 
-.content {
-    padding-bottom: 20rem;
+@keyframes floatUp {
+    from {margin-top: 2rem;opacity: 0}
+    to {margin-top: 0rem;opacity: 1}
 }
 
-@media screen and (max-width: 480px) {}
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {}
+.content {
+    padding: 5rem;
+}
+
+.title {
+    font-size: 3rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    opacity: 0;
+}
+
+.title.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+.or {
+    font-size: 3rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    opacity: 0;
+}
+
+.or.show {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-delay: 1.6s;
+}
+
+.c1,.c2,.c3 {
+    font-size: 2rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.c1.show,.c2.show,.c3.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.6s;
+}
+
+.c2c {
+    font-size: 1.5rem;
+    display: block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.c1i img {
+    height: 15%;
+    width: 15%;
+    margin: 1rem;
+}
+
+.c2i img {
+    height: 8%;
+    width: 8%;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .c1i img {
+        height: 60%;
+        width: 60%;
+        margin: 1rem;
+    }
+    .c2i img {
+        height: 30%;
+        width: 30%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .c1i img {
+        height: 60%;
+        width: 60%;
+        margin: 1rem;
+    }
+    .c2i img {
+        height: 30%;
+        width: 30%;
+        margin: 1rem;
+    }
+    .c1,.c2,.c3 {
+        font-size: 2.5rem;
+    }
+    .c2c {
+        font-size: 2rem;
+    }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {}
