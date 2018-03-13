@@ -123,38 +123,6 @@
     padding-bottom: 2rem;
 }
 
-.c1,.c2,.c3,.c4 {
-    opacity: 0;
-}
-
-.c1.show {
-    animation-name: showDiv;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 2s;
-}
-
-.c2.show {
-    animation-name: showDiv;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 2.1s;
-}
-
-.c3.show {
-    animation-name: showDiv;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 2.2s;
-}
-
-.c4.show {
-    animation-name: showDiv;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-delay: 2.3s;
-}
-
 .content-p {
     color: white;
     font-size: 2rem;
@@ -166,6 +134,14 @@
     background-color: #8094aa;
     margin: 2rem 5rem;
     text-align: left;
+    opacity: 0;
+}
+
+.content-container.show {
+    animation-name: showDiv;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
 }
 
 @media screen and (max-width: 480px) {

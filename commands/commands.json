@@ -1,20 +1,24 @@
 {
     "commands": [
         {
-            "command": "/help",
+            "title": "/help",
             "desc": "Show the help menu."
         },
         {
-            "command": "/contact",
+            "title": "/contact",
             "desc": "Report bugs or give suggestions to developer(s)."
         },
         {
-            "command": "/feedlist",
+            "title": "/feedlist",
             "desc": "Show list of feeds."
         },
         {
-            "command": "/about",
+            "title": "/about",
             "desc": "Know more about Zeta."
+        },
+        {
+            "title": "/contribute",
+            "desc": "Contribute to Zeta development."
         }
     ]
 }

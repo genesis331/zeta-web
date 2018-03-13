@@ -1,16 +1,22 @@
 $(window).on("load", function() {
-    $(".c1").addClass("show");
-    $(".c2").addClass("show");
-    $(".c3").addClass("show");
-    $(".c4").addClass("show");
+    $(".content-container").addClass("show");
 });
 
 var http = new XMLHttpRequest();
-http.overrideMimeType("application.json");
 http.open('GET','https://genesis331.github.io/zeta-web/commands/commands.json',true);
 http.onreadystatechange = function() {
     if (http.readyState === 4 && http.status === 200) {
-        var data = http.responseText;
+        var data = JSON.parse(this.responseText);
+        showCommands(data);
     }
 }
 http.send();
+
+function showCommands(data) {
+    for (var i = 0; i <= data.commands.length; i++) {
+        var title = data.commands[i].command;
+        var description = data.commands[i].desc;
+        var createDiv = "<div class='content-container'>" + "<div class='content-title'>" + title + "</div>" + "<div class='content-p'>" + description +  "</div>" + "</div>";
+        $(".content").append(createDiv);
+    }
+}
