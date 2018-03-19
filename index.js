@@ -37,3 +37,14 @@ $(window).on("load", function() {
         window.open('./prerequisites','_blank');
     });
 });
+
+var http = new XMLHttpRequest();
+http.open('GET','https://genesis331.github.io/zeta-bot/version.json',true);
+http.onreadystatechange = function() {
+    if (http.readyState === 4 && http.status === 200) {
+        var data = JSON.parse(this.responseText);
+        $(".menu-title").text(data.current_version + " Update");
+        $(".menu-content").text(data.current_changelog);
+    }
+}
+http.send();
