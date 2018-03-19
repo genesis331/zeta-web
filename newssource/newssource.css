@@ -110,12 +110,92 @@
     animation-delay: 1.9s;
 }
 
-.content {
-    padding-bottom: 20rem;
+@keyframes floatUp {
+    from {margin-top: 2rem;opacity: 0}
+    to {margin-top: 0rem;opacity: 1}
 }
 
-@media screen and (max-width: 480px) {}
+.content {
+    padding-top: 2rem;
+}
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {}
+.c1 {
+    background-color: #8094aa;
+    margin: 3rem 0;
+    opacity: 0;
+}
+.c1.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+
+.title {
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.image-container {
+    padding: 0 7rem;
+    text-align: center;  
+}
+
+.c1a img {
+    height: 10%;
+    width: 10%;
+    vertical-align: middle;
+    margin: 1rem;
+}
+
+.c1b img {
+    height: 15%;
+    width: 15%;
+    vertical-align: middle;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font: 2rem;
+    }
+    .c1a img {
+        height: 35%;
+        width: 35%;
+        margin: 1rem 0.5rem;
+    }
+    .c1b img {
+        height: 50%;
+        width: 50%;
+        margin: 1rem 0.5rem;
+    }
+    .image-container {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .title {
+        font: 2.5rem;
+    }
+    .c1a img {
+        height: 25%;
+        width: 25%;
+        margin: 0 1rem;
+    }
+    .c1b img {
+        height: 40%;
+        width: 40%;
+        margin: 0 1rem;
+    }
+    .image-container {
+        padding: 0 2rem;
+    } 
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {}
