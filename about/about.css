@@ -136,6 +136,15 @@
     border-radius: 50%;
 }
 
+.c3p2 {
+    padding: 1rem;
+}
+
+.c3p2 img {
+    height: 5%;
+    width: 5%;
+}
+
 .name {
     font-size: 4rem;
 }
@@ -284,6 +293,12 @@
         height: 70%;
         width: 70%;
     }
+    
+    .c3p2 img {
+        height: 15%;
+        width: 15%;
+    }
+    
     .name {
         font-size: 3rem;
     }
@@ -330,6 +345,12 @@
         height: 50%;
         width: 50%;
     }
+    
+    .c3p2 img {
+        height: 15%;
+        width: 15%;
+    }
+    
     .name {
         font-size: 4rem;
     }
