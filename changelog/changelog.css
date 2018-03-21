@@ -111,10 +111,48 @@
 }
 
 .content {
-    padding-bottom: 20rem;
+    padding: 3rem 10rem;
+    opacity: 0;
 }
 
-@media screen and (max-width: 480px) {}
+.content.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+@keyframes floatUp {
+    from {margin-top: 2rem;opacity: 0}
+    to {margin-top: 0rem;opacity: 1}
+}
+
+.c1 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}
+
+.c {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.c2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    padding: 3rem 3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 3rem 2rem;
+        opacity: 0;
+    }
+}
 
 @media screen and (min-width: 480px) and (max-width: 1024px) {}
 
