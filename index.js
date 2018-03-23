@@ -24,8 +24,8 @@ $(window).on("load", function() {
     $(".news").on("click", function() {
         window.open('./newssource','_blank');
     });
-    $(".concept").on("click", function() {
-        window.open('./concept','_blank');
+    $(".contribute").on("click", function() {
+        window.open('./contribute','_blank');
     });
     $(".contact").on("click", function() {
         window.open('./contact','_blank');
