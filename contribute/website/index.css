@@ -1,0 +1,18 @@
+.blank {
+    margin: 3rem 0;
+}
+
+.h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.5em;
+}
+
+.content {
+    padding: 5rem 3rem;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}

@@ -111,11 +111,104 @@
 }
 
 .content {
-    padding-bottom: 20rem;
+    padding: 3rem;
 }
 
-@media screen and (max-width: 480px) {}
+.title {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 4rem;
+}
 
-@media screen and (min-width: 480px) and (max-width: 1024px) {}
+.t1,.t2 {
+    margin: 1rem 0;
+}
+
+.c1,.c2,.c3 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin: 3rem 10rem;
+    text-align: left;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.c4 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin: 6rem 15rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.c1c,.c2c,.c3c,.c4c {
+    margin: 2rem 5rem;
+}
+
+.tag {
+    font-size: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    border: 1px solid white;
+    padding: 0.2rem;
+}
+
+.tag:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-out;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+b {
+    margin-right: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+    .c1,.c2,.c3 {
+        margin: 3rem 1rem;
+    }
+    .c4 {
+        margin: 5rem 1rem;
+        text-align: center;
+    }
+    .c1c,.c2c,.c3c,.c4c {
+        margin: 2rem 1rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .title {
+        font-size: 3rem;
+    }
+    .c1,.c2,.c3 {
+        font-size: 3rem;
+        margin: 3rem 5rem;
+    }
+    .c4 {
+        font-size: 3rem;
+        margin: 5rem 5rem;
+        text-align: center;
+    }
+    .c1c,.c2c,.c3c,.c4c {
+        margin: 2rem 1rem;
+    }
+    .tag {
+        font-size: 2rem;
+    }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) {}

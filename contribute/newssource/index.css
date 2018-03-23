@@ -1,0 +1,64 @@
+.blank {
+    margin: 3rem 0;
+}
+
+.h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.5em;
+}
+
+.content {
+    padding: 5rem 3rem;
+}
+
+.break {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.c1 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.c2,.c3,.c4,.c5,.c6 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    margin: 2rem 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.c2c,.c3c,.c4c,.c5c,.c6c {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.c4i {
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+    .blank {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>News Sources | Contributing</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="icon" href="../../logos/ZETA-FULL-TRANSPARENT.png"/>
+        <link rel="stylesheet" href="../../css/global.css"/>
+        <script src="../../script/global.js"></script>
+        <meta name="viewport" content="width=device-width" initial-scale="1"/>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
+        <link rel="stylesheet" href="./index.css"/>
+    </head>
+    <body>
+        <div class="blank">&nbsp;</div>
+        <div class="header">
+            <div class="h1"><img src="../../logos/ZETA-FULL-TRANSPARENT.png" draggable="false"></div>
+            <div class="h2">Contribute</div>
+            <div class="h3">News Sources</div>
+        </div>
+        <div class="content">
+            <div class="c1">
+                We believe that you've found a news source right?
+            </div>
+            <div class="c2">
+                First of all, please make sure the news source is RSS supported.
+                <div class="c2c">
+                    Don't know what's RSS? Click <a href="https://en.wikipedia.org/wiki/RSS" target="_blank">here</a> to find out!
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c3">
+                 Fork the <a href="https://github.com/genesis331/zeta-bot" target="_blank">Zeta Bot repository</a>.
+                <div class="c3c">
+                    Don't know what's git fork? Click <a href="https://help.github.com/articles/fork-a-repo/" target="_blank">here</a> to find out!
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c3">
+                Then, clone the forked Zeta Bot repository to your computer.
+                <div class="c3c">
+                    Don't know what's git clone? Click <a href="https://help.github.com/articles/cloning-a-repository/" target="_blank">here</a> to find out!
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c4">
+                Then, open <span class="c4i">feeds.json</span> located in /zeta-bot/feeds/ with your favourite text editor.
+                <div class="c4c">
+                    Don't know what's text editor? Microsoft Word is one of the popular text editors! But, I recommend <a href="http://brackets.io/" target="_blank">Brackets</a>.
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c5">
+                This is a JSON file, make sure you know what's JSON. Paste the URL(containing XML) into the <span class="c4i">feeds.json</span> then save the file.
+                <div class="c5c">
+                    Don't know what's JSON? Click <a href="https://en.wikipedia.org/wiki/JSON" target="_blank">here</a> to find out!
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c6">
+                After that, you are going to add informations about your news source to the Feed List.<br/>
+                Open <span class="c4i">help.js</span> located in /zeta-bot/help/.
+            </div>
+            <div class="break">-</div>
+            <div class="c6">
+                Next, find the category and copy those codes highlighted in the picture below.<br/>
+                <div class="c6c">Example: Windows<br/><img src="../../img/GUIDE1.png"/></div>
+            </div>
+            <div class="break">-</div>
+            <div class="c6">
+                Then, paste the code after the last <span class="c4i">},</span> (see picture).
+                <div class="c6c"><img src="../../img/GUIDE2.png"/></div>
+            </div>
+            <div class="break">-</div>
+            <div class="c6">
+                This is a simple example after pasting your code.<br/>
+                <div class="c6c"><br/><img src="../../img/GUIDE3.png"/></div>
+                <div class="c5c">
+                    But, set the value of <span class="c4i">name</span> to &Prime;	&#8245;//&lt;categoryname&gt;&nbsp;&nbsp;&lt;number&gt;&#8245;&Prime;
+                </div>
+                <div class="c5c">
+                    And set <span class="c4i">value</span> to  &Prime;Show feeds from &lt;newssourcename&gt;.&#92;n&lt;linktowebsite&gt;&Prime;
+                </div>
+            </div>
+            <div class="break">-</div>
+            <div class="c6">
+                <b>You're done!</b>
+            </div>
+            <div class="c6">
+                Now you are going to push your changes to the forked repo.
+                <div class="c6c">
+                    Don't know what's git push? Click <a href="https://help.github.com/articles/pushing-to-a-remote/" target="_blank">here</a> to find out!
+                </div>
+            </div>
+            <div class="c6">
+                Then, create a pull request so we can merge your changes.
+                <div class="c6c">
+                    Don't know what's a pull request? Click <a href="https://help.github.com/articles/creating-a-pull-request-from-a-fork/" target="_blank">here</a> to find out!
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
