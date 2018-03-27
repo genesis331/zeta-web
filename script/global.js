@@ -18,7 +18,3 @@ $(window).on("load", function() {
     $(".mobile").addClass("show");
     $(".footer").addClass("show");
 });
-
-function closeTab() {
-    window.close();
-}
