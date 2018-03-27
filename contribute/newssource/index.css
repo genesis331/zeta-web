@@ -74,4 +74,46 @@ a:hover {
     .blank {
         margin: 1rem 0;
     }
+    .content {
+        padding: 5rem 1rem;
+    }
+    .c2c img,.c3c img,.c4c img,.c5c img,.c6c img {
+        height: 100%;
+        width: 100%;
+    }
+    .c2,.c3,.c4,.c5,.c6 {
+        margin: 2rem 2rem;
+        font-size: 2rem;
+    }
+    .c2c,.c3c,.c4c,.c5c,.c6c {
+        margin: 2rem 0;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    .blank {
+        margin: 1rem 0;
+    }
+    .content {
+        padding: 6rem 1rem;
+    }
+    .c2c img,.c3c img,.c4c img,.c5c img,.c6c img {
+        height: 100%;
+        width: 100%;
+    }
+    .c2,.c3,.c4,.c5,.c6 {
+        margin: 2rem 2rem;
+        font-size: 3rem;
+    }
+    .c2c,.c3c,.c4c,.c5c,.c6c {
+        margin: 2rem 0;
+        font-size: 2.5rem;
+    }
+    .c1 {
+        font-size: 3.5rem;
+    }
+    .h3 {
+        font-size: 2.5rem;
+    }
 }
