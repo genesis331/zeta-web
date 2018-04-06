@@ -76,6 +76,56 @@ a:hover {
     text-align: center;
 }
 
+.footer {
+    padding: 0 5rem;
+}
+
+.f1 {
+    text-align: center;
+    display: inline-block;
+}
+
+.f1c {
+    text-align: center;
+    padding: 5rem;
+}
+
+.f1cc {
+    padding: 2rem 0;
+}
+
+.f1a img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.f2b {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: inline-block;
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.f2b.show {
+    animation-name: slideOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+    from {width: 5rem}
+    to {width: 0}
+}
+
+@keyframes slideOut {
+    from {width: 0}
+    to {width: 5rem}
+}
+
 @media screen and (max-width: 480px) {
     .blank {
         margin: 1rem 0;
