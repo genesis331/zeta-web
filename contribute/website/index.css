@@ -16,7 +16,7 @@
 }
 
 @keyframes floatUp {
-    from {margin-top: 2rem;opacity: 0}
+    from {margin-top: 5rem;opacity: 0}
     to {margin-top: 0rem;opacity: 1}
 }
 

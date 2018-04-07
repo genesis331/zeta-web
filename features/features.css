@@ -113,6 +113,19 @@
 .content {
     padding: 5rem;
     text-align: center;
+    opacity: 0;
+}
+
+@keyframes floatUp {
+    from {margin-top: 2rem;opacity: 0}
+    to {margin-top: 0rem;opacity: 1}
+}
+
+.content.show {
+    animation-name: floatUp;
+    animation-duration: 0.8s;
+    animation-fill-mode: both;
+    animation-delay: 1.6s;
 }
 
 .title {

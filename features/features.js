@@ -1,1 +1,3 @@
-$(window).on("load", function() {});
+$(window).on("load", function() {
+    $(".content").addClass("show");
+});
