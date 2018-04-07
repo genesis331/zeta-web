@@ -172,4 +172,8 @@ a:hover {
     .title {
         font-size: 3.5rem;
     }
+    .f1a img {
+        height: 5rem;
+        width: 5rem;
+    }
 }

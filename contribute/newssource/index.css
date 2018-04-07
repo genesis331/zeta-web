@@ -166,4 +166,8 @@ a:hover {
     .h3 {
         font-size: 2.5rem;
     }
+    .f1a img {
+        height: 5rem;
+        width: 5rem;
+    }
 }
