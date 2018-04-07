@@ -1,2 +1,3 @@
 # zeta-web
-A news bot.
+
+Official website for Zeta Bot.
