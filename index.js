@@ -125,3 +125,7 @@ function updateQueryStringParam(key, value) {
   }
   window.history.replaceState({}, "", baseUrl + params);
 }
+
+$(window).keypress(function(e) {
+    
+})
