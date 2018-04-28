@@ -183,7 +183,7 @@ b {
     margin-right: 1rem;
 }
 
-a:hover {
+.ll:hover {
     text-decoration: underline;
 }
 
