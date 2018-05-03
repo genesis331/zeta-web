@@ -1,3 +1,7 @@
++![alt text](https://genesis331.github.io/zeta-web/logos/ZETA-COVER-TRANSPARENT.png)
+
 # zeta-web
 
-Official website for Zeta Bot.
+### The fastest and easiest way to follow news feeds that interest you.
+ 
+ For more information, visit https://genesis331.github.io/zeta-web/.
