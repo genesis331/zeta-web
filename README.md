@@ -1,4 +1,4 @@
-+![alt text](https://genesis331.github.io/zeta-web/logos/ZETA-COVER-TRANSPARENT.png)
+![alt text](https://genesis331.github.io/zeta-web/logos/ZETA-COVER-TRANSPARENT.png)
 
 # zeta-web
 
