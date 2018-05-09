@@ -165,7 +165,7 @@
     margin-left: 1rem;
     vertical-align: middle;
     border: 1px solid white;
-    padding: 0.2rem;
+    padding: 0.2rem 0.4rem;
 }
 
 .tag:hover {
