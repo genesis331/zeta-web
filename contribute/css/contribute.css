@@ -79,3 +79,17 @@ a:hover {
     from {width: 0}
     to {width: 5rem}
 }
+
+@media screen and (max-width: 480px) {
+    .content {
+        padding: 0rem 3rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media screen and (min-width: 1024px) and (max-width: 1367px) {}

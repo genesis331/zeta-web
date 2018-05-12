@@ -176,7 +176,7 @@ a {
     }
 
     .h2 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .desktop {
@@ -286,5 +286,9 @@ a {
 
     .br {
         display: block;
+    }
+
+    .h2 {
+        font-size: 4rem;
     }
 }
