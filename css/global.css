@@ -32,6 +32,7 @@ body {
 .header {
     text-align: center;
     padding-top: 14rem;
+    padding-bottom: 4rem;
 }
 
 .header.move {
@@ -44,6 +45,13 @@ body {
 .h2 {
     color: white;
     font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.5em;
+}
+
+.h3 {
+    color: white;
+    font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
     margin: 0.5em;
 }
@@ -161,31 +169,31 @@ a {
     .header {
         padding-top: 14rem;
     }
-    
+
     .h1 img {
         height: 30%;
         width: 30%;
     }
-    
+
     .h2 {
         font-size: 2rem;
     }
-    
+
     .desktop {
         display: none;
     }
-    
+
     .mobile {
         display: block;
     }
-    
+
     .f1 {
         font-size: 1.5rem;
         color: white;
         font-family: 'Quicksand', sans-serif;
         margin: 0;
     }
-    
+
     .fl {
         margin: 0;
     }
@@ -201,7 +209,7 @@ a {
         width: 15%;
         margin: 1rem;
     }
-    
+
     .footer {
         padding: 3rem 0;
     }
