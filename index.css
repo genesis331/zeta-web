@@ -253,6 +253,26 @@ body {
     animation-delay: 1s;
 }
 
+.deprecate {
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.deprecate-content {
+    display: inline-block;
+    background-color: rgb(241, 43, 43);
+    padding: 1rem 4rem;
+}
+
+.deprecate.hide {
+    animation-name: hideDiv;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
 @media screen and (max-width: 480px) {
     .logo {
         padding-top: 30%;
