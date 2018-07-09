@@ -41,7 +41,7 @@ $(window).on("load", function() {
 });
 
 var http = new XMLHttpRequest();
-http.open('GET','http://genesis331.me/zeta-bot/version.json',true);
+http.open('GET','https://genesis331.github.io/zeta-bot/version.json',true);
 http.onreadystatechange = function() {
     if (http.readyState === 4 && http.status === 200) {
         var data = JSON.parse(this.responseText);
